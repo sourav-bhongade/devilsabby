@@ -1,0 +1,168 @@
+$date
+	Wed Jul 16 18:27:14 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module cpu_testbench $end
+$var wire 8 ! pc [7:0] $end
+$var wire 8 " instruction [7:0] $end
+$var wire 8 # R3 [7:0] $end
+$var wire 8 $ R2 [7:0] $end
+$var wire 8 % R1 [7:0] $end
+$var reg 1 & clk $end
+$var reg 1 ' reset $end
+$scope module cpu_inst $end
+$var wire 8 ( R1 [7:0] $end
+$var wire 8 ) R2 [7:0] $end
+$var wire 8 * R3 [7:0] $end
+$var wire 1 & clk $end
+$var wire 8 + instruction [7:0] $end
+$var wire 1 ' reset $end
+$var wire 1 , zero_flag $end
+$var wire 3 - src [2:0] $end
+$var wire 3 . opcode [2:0] $end
+$var wire 3 / dest [2:0] $end
+$var reg 8 0 alu_result [7:0] $end
+$var reg 8 1 operand1 [7:0] $end
+$var reg 8 2 operand2 [7:0] $end
+$var reg 8 3 pc [7:0] $end
+$var reg 1 4 write_enable $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 5 i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100000000 5
+04
+b0 3
+b0 2
+b0 1
+b0 0
+b101 /
+b101 .
+b10 -
+1,
+b10110110 +
+b0 *
+b0 )
+b0 (
+1'
+0&
+b0 %
+b0 $
+b0 #
+b10110110 "
+b0 !
+$end
+#50000
+1&
+#100000
+0&
+0'
+#150000
+b110 /
+b11 -
+b10111011 "
+b10111011 +
+b1 !
+b1 3
+b101 %
+b101 (
+0,
+b101 0
+b101 2
+1&
+#200000
+0&
+#250000
+b0 .
+b11 /
+b10 -
+b1110 "
+b1110 +
+b10 !
+b10 3
+b111 $
+b111 )
+b111 0
+b111 2
+1&
+#300000
+0&
+#350000
+b0 /
+b0 -
+b0 "
+b0 +
+b11 !
+b11 3
+b1100 #
+b1100 *
+b1100 0
+14
+b101 1
+1&
+#400000
+0&
+#450000
+b100 !
+b100 3
+b101 0
+b0 2
+1&
+#500000
+0&
+#550000
+b101 !
+b101 3
+b1010 0
+b101 2
+1&
+#600000
+0&
+#650000
+b110 !
+b110 3
+b1111 0
+b1010 2
+1&
+#700000
+0&
+#750000
+b111 !
+b111 3
+b10100 0
+b1111 2
+1&
+#800000
+0&
+#850000
+b1000 !
+b1000 3
+b11001 0
+b10100 2
+1&
+#900000
+0&
+#950000
+b1001 !
+b1001 3
+b11110 0
+b11001 2
+1&
+#1000000
+0&
+#1050000
+b100011 0
+b11110 2
+1&
